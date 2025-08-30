@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Notes</h1>
+      <div class="notes_content_area">
+        <textarea
+          name=""
+          id="notes_input"
+          class="notes_input_box"
+          placeholder="write your notes.."
+        ></textarea>
+        <button type="button" onclick="addNote()" class="btn_chng_cls" id="addnoteBtn">
+          Add Note
+        </button>
+      </div>
+
+      <div class="notes_list_area" id="notes_list"></div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
